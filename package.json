@@ -1,0 +1,38 @@
+{
+  "name": "ig-stories-notifier",
+  "version": "1.0.0",
+  "description": "get media when a user posted new story or post and send to telegram using bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "instagram",
+    "story",
+    "insta",
+    "story",
+    "bot"
+  ],
+  "author": "Gimenz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "instagram-stories": "^1.1.2",
+    "lowdb": "^1.0.0",
+    "node-cron": "^3.0.0",
+    "path": "^0.12.7",
+    "telegraf": "^4.4.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gimenz/ig-stories-notifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gimenz/ig-stories-notifier/issues"
+  },
+  "homepage": "https://github.com/Gimenz/ig-stories-notifier#readme"
+}
