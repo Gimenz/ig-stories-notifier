@@ -16,5 +16,7 @@ get the latest instagram story from someone, and then send to telegram
  - [x] Get data from many target
  - [ ] More feature
  - [ ] Bug fixes
+ 
 ## Contribution
 Contributions are welcome, if want to add feature or fixing bugs, just fork this repository and make pull request. Enjoy coding 😊
+ - [Gimenz](https://github.com/Gimenz/)
