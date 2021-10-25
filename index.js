@@ -18,7 +18,6 @@ async function getStory(username) {
     try {
         let meta = await checkStory(username);
         let media_ids = meta.result.media_ids.map(x => x);
-        //media_ids = data.id
         let isSaved = await db.findStoryID(media_ids);
         let dta = meta.result.data.filter(x => x.id.match(media_ids));
 
